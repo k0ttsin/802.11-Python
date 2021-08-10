@@ -12,3 +12,6 @@
 
 <p>Script to change wirelesss adapter mode : <a href="https://github.com/kaung-khant-zaw223/802.11-Python/blob/main/modes.py">link</a></p>
 <p>Script to Check and Kill the processes : <a href="https://github.com/kaung-khant-zaw223/802.11-Python/blob/main/checkkill.py">link</a></p>
+
+<h2>Scapy</h2>
+<p>Script for netdiscover : <a href="https://github.com/kaung-khant-zaw223/802.11-Python/blob/main/netdiscover.py">link</a></p>
