@@ -15,7 +15,7 @@ clients.set_index("STA", inplace=True)
 
 def PacketHandler(packet):
     if packet.haslayer(Dot11Beacon):
-        global essid
+
         essid = packet[Dot11Elt].info.decode()
         bssid = packet[Dot11].addr2
         
@@ -29,7 +29,20 @@ def PacketHandler(packet):
         encry = stats.get("crypto")
         encry =str(encry)
         networks.loc[essid]=(bssid,dbm_signal,channel,encry)
-    
+    elif packet.haslayer(Dot11ProbeResp) and packet.addr3 in networks:
+        essid=packet.info.decode()
+        bssid=packet.addr3
+        try:
+            dbm_signal = packet.dBm_AntSignal
+        except:
+            dbm_signal = "N/A"
+        stats = packet[Dot11Beacon].network_stats()
+        channel = stats.get("channel")
+        channel = str(channel)
+        encry = stats.get("crypto")
+        encry =str(encry)
+        networks.loc[essid]=(bssid,dbm_signal,channel,encry)
+
     if packet.type==0 and packet.subtype==4:
         if not packet.info:
             packet.info="<<Not Associated>>"
