@@ -33,4 +33,5 @@
 
 <h2>802.11 (Dot11)</h2>
 
-<p>script for ssid_finder : <a href="https://github.com/kaung-khant-zaw223/802.11-Python/blob/main/ssid_finder.py">link</a></p>
+<p>Script for ssid_finder : <a href="https://github.com/kaung-khant-zaw223/802.11-Python/blob/main/ssid_finder.py">link</a></p>
+<p>Script for hiddenssid_finder : <a href="https://github.com/kaung-khant-zaw223/802.11-Python/blob/main/hiddenssid_finder.py">link</a></p>
