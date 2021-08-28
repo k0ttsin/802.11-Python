@@ -39,3 +39,4 @@
 <p>Script for ap_sta : <a href="https://github.com/kaung-khant-zaw223/802.11-Python/blob/main/ap_sta.py">link</a></p>
 <p>.cap files for Cracking WPA/WPA2 : <a href="https://github.com/kaung-khant-zaw223/802.11-Python/blob/main/Captures.tar.gz">link</a></p>
 <p>Script for capsniff : <a href="https://github.com/kaung-khant-zaw223/802.11-Python/blob/main/capsniff.py">link</a></p>
+<p>Script for capread : <a href="https://github.com/kaung-khant-zaw223/802.11-Python/blob/main/capread.py">link</a></p>
