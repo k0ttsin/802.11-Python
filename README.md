@@ -1,5 +1,5 @@
 <h1>802.11 Python (Download Link - <a href="https://www.mediafire.com/file/xsi4pr9q5a4odz3/802.11_Python.pdf/file">link</a>)</h1>
-<p>Download 802.11 Python PDF from <a href="https://www.mediafire.com/file/xsi4pr9q5a4odz3/802.11_Python.pdf/file">link</a> (Donate US : <a href="https://github.com/kaung-khant-zaw223/802.11-Python/blob/main/DonateUS.md">link</a>)</p>
+<p>Download 802.11 Python PDF from <a href="https://www.mediafire.com/file/xsi4pr9q5a4odz3/802.11_Python.pdf/file">link</a></p>
 <p>Feedback Our PDF - <a href="https://forms.gle/xaoPDenymMbSMwZV7">Form</a></p>
 <p>By KC -{ PENGUIN }- </p>
 <p>Telegram Channel - <a href="https://t.me/kc_kc223">KC</a></p>
